@@ -60,6 +60,12 @@ export default class Sidebar extends React.Component<any, any> {
                     Settings
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink to='/settings'>
+                    <Icon name='mini' size='xs></Icon>
+                    Minimize
+                  </NavLink>
+                </li>
               </ul>
           </nav>
         </div>
